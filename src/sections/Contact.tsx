@@ -74,6 +74,10 @@ export default function Contact() {
         }
 
         @media (max-width: 768px) {
+          #contact p {
+            -webkit-text-stroke: 0px transparent !important;
+            opacity: 0.85 !important;
+          }
           .contact-card {
             border-radius: 24px;
             min-height: 50vh;
